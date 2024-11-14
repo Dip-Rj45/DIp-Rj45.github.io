@@ -1,0 +1,96 @@
+.text-entry {
+    padding: 15px; /* Espacio interno alrededor del texto */
+    margin-left: 250px; /* Desplazamiento a la izquierda */
+    border-left: 4px solid #ddd; /* Línea decorativa en el borde izquierdo */
+    font-size: 16px; /* Tamaño de la fuente */
+    color: #333; /* Color del texto */
+    line-height: 1.6; /* Espaciado entre líneas */
+    max-width: 800px; /* Ancho máximo del contenedor */
+  }
+
+
+   /* Asegura que el contenedor principal ocupe al menos la altura total de la ventana */
+   body, html {
+    height: 100%;
+    margin: 0;
+    
+  }
+  
+
+  /* Contenedor principal con diseño de columnas */
+  .content-container {
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+
+  /* Columna izquierda para el contenido de texto */
+  .left-content {
+    background-color: rgba(0, 0, 0, 0.527);
+    flex: 1;
+    padding: 15px; /* Espacio interno alrededor del texto */
+    margin-left: 20px; /* Desplazamiento a la izquierda */
+    border-left: 4px solid #ddd; /* Línea decorativa en el borde izquierdo */
+    font-size: 16px; /* Tamaño de la fuente */
+    color: #ffffff; /* Color del texto */
+    margin-left: 10%;
+    line-height: 1.6; /* Espaciado entre líneas */
+    max-width: 800px; /* Ancho máximo del contenedor */
+  }
+
+  /* Columna derecha para la imagen */
+  .right-image {
+    
+    flex: 0.5;
+    display: flex;
+    padding-left: 5px;
+    
+  }
+
+  /* Imagen alargada */
+  .tall-image {
+    width: 400px;
+    border-radius: 10px;
+    border: 4px solid #000;
+    height: 100%; /* Imagen ocupa todo el alto de la columna */
+    max-height: 600px; /* Altura máxima */
+    
+  }
+
+
+
+  .image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+    margin: 20px auto; /* Centro horizontalmente */
+    max-width: 1000px;  /* Tamaño máximo ajustable */
+  }
+  
+  .image-title {
+    padding-top: 20px;
+    color: white;
+    font-size: 30px; /* Ajusta el tamaño del título */
+    margin-bottom: 10px;
+  }
+  
+  .image-content {
+    padding-top: 100px;
+    padding-bottom: 60px;
+    width: 100%;       /* Imagen ocupa el 100% del contenedor */
+    height: auto;      /* Mantiene la proporción */
+    max-width: 100%;   /* No excede el tamaño del contenedor */
+  }
+  .section-title {
+   /* Centra el título */
+   background-color: #00000096;
+    font-size: 28px;    /* Ajusta el tamaño de la fuente */
+    margin: 20px 0;     /* Añade espacio arriba y abajo */
+    color: #ffffff;        /* Cambia el color del texto */
+    text-decoration: underline;
+    text-decoration-color: rgb(255, 255, 255);
+  }

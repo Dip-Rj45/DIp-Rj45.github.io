@@ -1,0 +1,146 @@
+a.card-link {
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+    color: inherit; /* Mantiene el color original del texto */
+    border: none; /* Elimina cualquier borde que pueda aparecer */
+}
+
+a.card-link:focus,
+a.card-link:active {
+    outline: none; /* Elimina el contorno que aparece al hacer clic */
+}
+
+a.card-link:hover {
+    text-decoration: none; /* Asegura que al pasar el cursor tampoco aparezca subrayado */
+}
+
+.titulo-de-nose{
+    text-decoration: underline;
+    text-decoration-color: rgb(0, 0, 0); /* Cambia el color del subrayado */
+    font-size: 30px;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.titulo-de-nose2{
+    text-decoration: underline;
+    text-decoration-color: rgb(255, 255, 255); /* Cambia el color del subrayado */
+    font-size: 30px;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+
+.full-width-container {
+    margin-top: 30px;
+    width: 100%;
+    background-color: gray;
+    height: 600px;
+    box-sizing: border-box;
+}
+
+.video-container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 5px;
+    background-color: #000000;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+video {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.contenedoriii {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.div-izquierdo, .div-derecho {
+    width: 48%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.div-izquierdo {
+    margin-left: 150px;
+    background-color: #80ad8200;
+}
+
+.div-derecho {
+    background-color: #80ad8200;
+}
+
+.small-images-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.small-image {
+    width: 100px;
+    height: 100px;
+    background-color: lightgray;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.small-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.video-description {
+    height: 200px;
+    margin-top: 20px;
+    font-size: 16px;
+    color: #000;
+    background-color: #f5f5f5;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+  /* Estilo para la capa de opacidad con color personalizado */
+  .carousel-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  /* Texto sobre la imagen */
+  .carousel-text {
+    position: absolute;
+    top: 55%; /* Centra el texto verticalmente */
+    left: 50%; /* Centra el texto horizontalmente */
+    transform: translate(-50%, -50%);
+    color: white; /* Color del texto */
+    font-size: 15px; /* Tamaño del texto */
+    font-weight: bold; /* Grosor del texto */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra para mejor legibilidad */
+    text-align: center;
+  }
+  .carousel-text-2 {
+    position: absolute;
+    top: 45%; /* Centra el texto verticalmente */
+    left: 50%; /* Centra el texto horizontalmente */
+    transform: translate(-50%, -50%);
+    color: white; /* Color del texto */
+    font-size: 60px; /* Tamaño del texto */
+    font-weight: bold; /* Grosor del texto */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra para mejor legibilidad */
+    text-align: center;
+  }
