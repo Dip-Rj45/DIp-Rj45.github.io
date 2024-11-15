@@ -79,7 +79,7 @@
   }
   
   .image-content {
-    padding-top: 100px;
+    padding-top: 60px;
     padding-bottom: 60px;
     width: 100%;       /* Imagen ocupa el 100% del contenedor */
     height: auto;      /* Mantiene la proporción */
@@ -94,3 +94,38 @@
     text-decoration: underline;
     text-decoration-color: rgb(255, 255, 255);
   }
+
+
+  a.card-link {
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+    color: inherit; /* Mantiene el color original del texto */
+    border: none; /* Elimina cualquier borde que pueda aparecer */
+}
+
+a.card-link:focus,
+a.card-link:active {
+    outline: none; /* Elimina el contorno que aparece al hacer clic */
+}
+
+a.card-link:hover {
+    text-decoration: none; /* Asegura que al pasar el cursor tampoco aparezca subrayado */
+}
+
+.image-content2 {
+  padding-top: 0px;
+  padding-bottom: 60px;
+  width: 100%;       /* Imagen ocupa el 100% del contenedor */
+  height: auto;      /* Mantiene la proporción */
+  max-width: 100%;   /* No excede el tamaño del contenedor */
+}
+
+.loll{
+  width: 200px;
+}
+.image-content3 {
+  padding-top: 10px;
+  padding-bottom: 60px;
+  width: 700px;       /* Imagen ocupa el 100% del contenedor */
+  height: auto;      /* Mantiene la proporción */
+  max-width: 100%;   /* No excede el tamaño del contenedor */
+}
